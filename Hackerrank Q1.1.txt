@@ -1,0 +1,17 @@
+*/Given a string S and an integer number N,
+print the output in the form: "The string is :S" and "The interger is :N"
+in the two separate lines./*
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String a = sc.nextLine();
+        int b = sc.nextInt();
+        System.out.println("The string is :"+a);
+        System.out.println("The integer is :"+b);
+    }
+}
