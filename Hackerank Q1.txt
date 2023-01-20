@@ -1,0 +1,14 @@
+*/Jhon visited fun zone area in Elante mall. He decided to play a game which consist with some green and red color balls. He got a task to add green and red balls,then after on screen he needs to enter final sum of total number of green and red balls.*/
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println(a+b);
+}
+}
