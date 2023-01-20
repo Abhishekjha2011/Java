@@ -1,0 +1,56 @@
+*/Amit got an assignment where he need to determine whether a given integer is prime number or not. Write a java programming solution to help Amit./*
+import java.io.*;
+
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+        Scanner sc= new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        int count=0;
+
+         for(int i=2; i<n; i++)
+
+          {
+
+              if(n%i == 0)
+
+               {
+
+                 count++;
+
+                 break;
+
+                }
+
+          }
+
+      
+
+        if(count==0)
+
+         {
+
+            System.out.print("Prime Number");
+
+          }
+
+        else
+
+        {
+
+         System.out.print("Not Prime Number");
+
+         }
+
+   
+
+        
+
+    }
+
+}
